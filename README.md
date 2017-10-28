@@ -1,0 +1,1 @@
+# go-glide-awscli-npm-yarn-image
