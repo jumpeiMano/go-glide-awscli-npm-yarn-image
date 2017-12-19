@@ -19,3 +19,4 @@ RUN gometalinter --install
 RUN apt-get install -y rubygems
 RUN gem install fakes3
 RUN fakes3 -r /mnt/fakes3_root -p 4567 &
+RUN aws --endpoint-url http://localhost:4567 s3 mb s3://test-bucket
