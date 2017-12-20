@@ -16,3 +16,4 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     apt-get update && apt-get install -y yarn
 RUN go get -u github.com/alecthomas/gometalinter
 RUN gometalinter --install
+RUN npm install -g gulp
