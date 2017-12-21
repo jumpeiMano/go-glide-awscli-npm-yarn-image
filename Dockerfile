@@ -17,3 +17,4 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
 RUN go get -u github.com/alecthomas/gometalinter
 RUN gometalinter --install
 RUN npm install -g gulp
+RUN npm install --save-dev gulp
