@@ -1,4 +1,4 @@
-FROM golang:1.10.2
+FROM golang:1.10.3
 
 RUN apt-get update
 RUN apt-get install -y netcat \
